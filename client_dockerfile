@@ -1,0 +1,9 @@
+FROM python:2
+
+ADD client1.py /
+
+EXPOSE 60000
+
+ENTRYPOINT ["python","./client1.py"]
+
+
